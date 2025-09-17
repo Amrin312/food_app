@@ -4,7 +4,7 @@ import { StoreContext } from '../../context/StoreContext';
 
 const Foods = ({ u_id, id, name, image, price, description, category }) => {
 
-    const {cartItems, setCartItems, addToCart, removefromCart} = useContext(StoreContext);
+    const {cartItems, setCartItems, addToCart, removefromCart } = useContext(StoreContext);
 
   return (
     <div key={id} className='shadow-md rounded mb-8'>

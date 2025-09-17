@@ -5,6 +5,8 @@ import Home from './pages/Home/Home'
 import Footer from './components/Footer/Footer'
 import { useState } from 'react'
 import LoginPopup from './components/LoginPopup/LoginPopup'
+import Cart from './pages/Cart/Cart'
+import Orders from './pages/Orders/Orders'
 const App = () => {
 
   const [showLogin, setShowLogin] = useState(false);
@@ -19,8 +21,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/menu" element={<Home />}></Route>
-          <Route path="/cart" element={<Home />}></Route>
-          <Route path="/orders" element={<Home />}></Route>
+          <Route path="/cart" element={<Cart />}></Route>
+          <Route path="/orders" element={<Orders />}></Route>
 
           {/* <Route path="/mobile-app" element={<Home />}></Route>
           <Route path="/contact-us" element={<Home />}></Route> */}
