@@ -1,12 +1,28 @@
-# React + Vite
+# Food Ordering Application 🍔🥗
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive food ordering web application built using React and Tailwind CSS. 
+The app allows users to browse food items, add them to cart, and place orders.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Browse food menu
+- Add / remove items from cart
+- Cart price calculation
+- Responsive UI (mobile + desktop)
+- Modern UI using Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- React.js
+- Tailwind CSS
+- JavaScript (ES6)
+- React Hooks
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1920" height="6470" alt="screencapture-localhost-5173-2026-01-02-17_28_06 (1)" src="https://github.com/user-attachments/assets/d94d2ef7-0f27-4522-9bb6-8af31165ba29" />
+
+<img width="1920" height="1080" alt="screencapture-localhost-5173-cart-2026-01-02-17_28_51 (1)" src="https://github.com/user-attachments/assets/f4db3ab5-984b-400c-a438-16651b2f484d" />
+
+## ⚙️ Installation
+1. Clone the repository
+```bash
+git clone https://github.com/Amrin312/food_app.git
